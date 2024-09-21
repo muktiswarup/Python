@@ -38,8 +38,8 @@ print(number) """
 print(max(number))
 print(min(number)) """
 #  7.Count occurrence of specific element
-number=[1,5,5,5,1,4,6,5,5,4,5,4,7,8,4,5,7,4,7,1,5,4,7,8,2,4,4,5,4,7,5,4]
-""" print(number.count(4))
+""" number=[1,5,5,5,1,4,6,5,5,4,5,4,7,8,4,5,7,4,7,1,5,4,7,8,2,4,4,5,4,7,5,4]
+print(number.count(4))
 print(number.count(5))
 print(number.count(7)) """
 #  8.Create a list of square number from 1 to 10
@@ -49,9 +49,16 @@ print(f"The square of the first 10 number is {squareNumber}") """
 """ evenNumber=[x for x in range(1,41) if x%2==0]
 print(f"The even number of first 40 number is {evenNumber}") """
 #  10.Create a list of words from a sentence 
-sentence= "Hello World"
+""" sentence= "Hello World"
 words=[x for x in sentence.split()]
 print(words)
 profile="Hi i am raju the dilwala i am a driver from karnataka i want to marraige.But no one is marrying me will you marry"
 raju=[raju for raju in profile.split()]
-print(raju)
+print(raju) """
+#  11.Nested list access
+""" number=[[1,2,3],[4,5,6]]
+print(number[1][2]) """
+#  12.Modify elements in a nested list
+""" number=[[1,2,3],[4,5,6]]
+number[0][2]=10
+print(number) """
